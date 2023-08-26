@@ -1,0 +1,74 @@
+
+* {
+    padding: 0;
+    margin: 0;
+ }
+.body{
+    background: url("../img/screen-13\(1\).jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+   position: absolute;
+   color: rgb(18, 3, 113);
+   border: solid black;
+   background-color: rgb(117, 161, 231);
+   padding: 10px;
+   top: 6px;
+   right: 200px;
+   font-size: 50px;
+  
+ }
+ 
+ #board{
+    
+    background: rgb(184 224 237);
+    width: 90vmin;
+    height: 92vmin;
+    border: 3px solid rgb(14, 1, 52);
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);  }
+
+ h1 {
+            position: absolute;
+    
+            font-size: 50px;
+            font-weight: lighter;
+            color: rgb(18, 3, 113);
+            font-style: oblique;
+            text-shadow: 2px 2px 4px gray;
+            }
+ .head
+{
+     background-color: rgb(2, 74, 21);
+       height: 40px;
+     width: 40px;
+        border-radius: 50%;
+        border: 2px solid black; 
+        transform: scale(1.20);  
+     
+       
+       
+ }
+.snake
+{
+    background-color: rgb(49, 121, 67);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 1px solid black;          }
+.food
+{
+  background-color: rgb(209, 5, 46);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+

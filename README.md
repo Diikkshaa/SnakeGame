@@ -1,2 +1,2 @@
 # SnakeGame
-snake game using html css javascript.
+Snake game using html css javascript.

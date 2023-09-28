@@ -1,47 +1,58 @@
-
 * {
     padding: 0;
     margin: 0;
  }
 .body{
-    background: url("../img/screen-13\(1\).jpg");
+ 
+    background:url(https:wallpapercave.com/wp/wp2409705.jpg);
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 #scoreBox{
    position: absolute;
-   color: rgb(18, 3, 113);
+   color: rgb(28, 95, 34);
    border: solid black;
-   background-color: rgb(117, 161, 231);
+   background-color: rgb(163, 216, 112);
    padding: 10px;
    top: 6px;
    right: 200px;
    font-size: 50px;
-  
+  display: flex;
  }
  
  #board{
     
-    background: rgb(184 224 237);
+    background: rgb(224, 232, 208);
     width: 90vmin;
     height: 92vmin;
-    border: 3px solid rgb(14, 1, 52);
+    border: 3px solid rgb(18, 69, 29);
     display: grid;
     grid-template-rows: repeat(18, 1fr);
-    grid-template-columns: repeat(18, 1fr);  }
+    grid-template-columns: repeat(18, 1fr); 
+    color: rgb(0, 15, 10);
+    overflow:visible;
+    border-radius: 7px;
+    flex-wrap: wrap;
+   
+   
+   }
 
  h1 {
-            position: absolute;
-    
+            
+          display: flex;
+          position: absolute;
             font-size: 50px;
             font-weight: lighter;
-            color: rgb(18, 3, 113);
+            color: rgb(70, 139, 87);
             font-style: oblique;
-            text-shadow: 2px 2px 4px gray;
+            text-shadow: 2px 2px 4px rgb(243, 234, 234);
+           
+            
             }
  .head
 {
@@ -57,18 +68,25 @@
  }
 .snake
 {
-    background-color: rgb(49, 121, 67);
+    background-color: rgb(12, 160, 74);
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        border: 1px solid black;          }
+        border: 1px solid black;
+        
+     
+                }
 .food
 {
-  background-color: rgb(209, 5, 46);
+  background-color: rgb(84, 74, 24);
     height: 40px;
     width: 40px;
     border-radius: 50%;
     border: 1px solid black;
+    display: flex;
 }
 
+
+ 
+      
 
